@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.games import even
+from brain_games.games import gcd
 
 
 def main():
     print("Welcome to the Brain Games!")
-    even.even_game()
+    gcd.gcd_game()
 
 
 if __name__ == '__main__':
